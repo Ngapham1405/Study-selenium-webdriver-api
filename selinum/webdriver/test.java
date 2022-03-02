@@ -40,11 +40,16 @@ package webdriver;
 		public void TC_02_ValidatePageTitle() {
 			// Login Page title
 			String loginPageTitle = driver.getTitle();
-			Assert.assertEquals(loginPageTitle, "Facebook – log in or sign up");
+			Assert.assertEquals(loginPageTitle, "Facebook ï¿½ log in or sign up");
 		}
 
 		@Test
 		public void TC_03_LoginFormDisplayed() {
+			// Login form displayed
+			Assert.assertTrue(driver.findElement(By.xpath("//form[@data-testid='royal_login_form']")).isDisplayed());
+		}
+		@Test
+		public void TC_4_LoginFormDisplayed() {
 			// Login form displayed
 			Assert.assertTrue(driver.findElement(By.xpath("//form[@data-testid='royal_login_form']")).isDisplayed());
 		}
