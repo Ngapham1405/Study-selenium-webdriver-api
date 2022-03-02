@@ -49,7 +49,7 @@ package webdriver;
 			Assert.assertTrue(driver.findElement(By.xpath("//form[@data-testid='royal_login_form']")).isDisplayed());
 		}
 		@Test
-		public void TC_4_LoginFormDisplayed() {
+		public void TC_5_LoginFormDisplayed() {
 			// Login form displayed
 			Assert.assertTrue(driver.findElement(By.xpath("//form[@data-testid='royal_login_form']")).isDisplayed());
 		}
