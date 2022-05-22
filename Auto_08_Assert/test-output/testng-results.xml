@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-29T14:36:48Z" name="Default suite" finished-at="2022-03-29T14:36:57Z" duration-ms="8503">
+    <groups>
+    </groups>
+    <test started-at="2022-03-29T14:36:48Z" name="Default test" finished-at="2022-03-29T14:36:57Z" duration-ms="8503">
+      <class name="TestAssert.ConkeThua">
+        <test-method is-config="true" signature="beforeBaseClass()[pri:0, instance:TestAssert.ConkeThua@2002fc1d]" started-at="2022-03-29T14:36:48Z" name="beforeBaseClass" finished-at="2022-03-29T14:36:51Z" duration-ms="3188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeBaseClass -->
+        <test-method signature="RunTest()[pri:1, instance:TestAssert.ConkeThua@2002fc1d]" started-at="2022-03-29T14:36:51Z" name="RunTest" finished-at="2022-03-29T14:36:56Z" duration-ms="4574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunTest -->
+        <test-method is-config="true" signature="afterBaseClass()[pri:0, instance:TestAssert.ConkeThua@2002fc1d]" started-at="2022-03-29T14:36:56Z" name="afterBaseClass" finished-at="2022-03-29T14:36:57Z" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterBaseClass -->
+      </class> <!-- TestAssert.ConkeThua -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
